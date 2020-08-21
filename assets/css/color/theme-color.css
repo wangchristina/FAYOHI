@@ -92,7 +92,7 @@
 }
 
 .theme-btn.style-two:after{
-  border-bottom: 60px solid #0b7a75;
+  border-bottom: 60px solid #1f5c7d;
 }
 
 .feature-block-one .icon-box:after{
@@ -100,15 +100,15 @@
 }
 
 .feature-block-one:hover .icon-box:after{
-  background: #0b7a75;
+  background: #1f5c7d;
 }
 
 .feature-block-one .icon-box{
-  color: #0b7a75;
+  color: #1f5c7d;
 }
 
 h3 a:hover{
-  color: #0b7a75;
+  color: #1f5c7d;
 }
 
 .feature-block-one .icon-box .anim-icon .icon-1{
@@ -116,11 +116,11 @@ h3 a:hover{
 }
 
 .feature-block-one .icon-box .anim-icon .icon-2{
-  background: #9fd6cb;
+  background:  #f6b26b;
 }
 
 .feature-block-one .icon-box .anim-icon .icon-3{
-  background: #9fd6cb;
+  background: #f6b26b;
 }
 
 .sec-title p{
