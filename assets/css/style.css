@@ -1264,6 +1264,39 @@ div#mCSB_1_container{
   margin-bottom: 0px;
 }
 
+.mobile-img
+{
+    display: none;
+}
+
+@media only screen and (max-width: 384px) {
+
+.mobile-img
+    {
+         background: url('https://i.pinimg.com/originals/f5/05/24/f50524ee5f161f437400aaf215c9e12f.jpg');
+
+       visibility: visible;
+}
+
+.pc-img {
+  min-height: 95% !important;
+ height: 100%;
+ width: 100%;
+ background-image: url("first_background.png");
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ text-align: center;
+ color: white;
+}
+}
+
+
+.pc-img
+{
+    visibility: hidden;
+}
+}
 /** stricky-header **/
 
 .sticky-header .main-menu .navigation > li{
