@@ -74,7 +74,7 @@ body {
   color:#848484;
   line-height:32px;
   font-weight:400;
-  background:#9fd6cb;
+  background:#1f5c7d;
   font-family: 'Roboto', sans-serif;
   background-size:cover;
   background-repeat:no-repeat;
@@ -91,7 +91,7 @@ body {
 
 .large-container{
   max-width: 1570px;
-  padding: 0px 15px;
+  padding: 2px 15px;
   margin: 0 auto;
 }
 
@@ -108,13 +108,13 @@ body {
 
 .small-container{
   max-width:680px;
-  margin:0 auto;
+  margin:0px auto;
 }
 
 .boxed_wrapper{
   position: relative;
   overflow-x: hidden;
-  margin: 0 auto;
+  margin: 0px auto;
   width: 100%;
   min-width: 300px;
 }
@@ -1291,12 +1291,6 @@ div#mCSB_1_container{
 }
 }
 
-
-.pc-img
-{
-    visibility: hidden;
-}
-}
 /** stricky-header **/
 
 .sticky-header .main-menu .navigation > li{
@@ -1368,6 +1362,7 @@ div#mCSB_1_container{
 }
 
 .banner-section .content-box .btn-box .video-btn:hover{
+
 
 }
 
