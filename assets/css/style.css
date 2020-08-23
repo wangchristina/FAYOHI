@@ -1709,7 +1709,7 @@ div#mCSB_1_container{
 /* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 400px) {
   .about-section {
-    background-image:url("/assets/images/iphone3.png");
+    background-image:url("/assets/images/screen2.3.png");
   }
 }
 #content_block_01 .content-box .text{
