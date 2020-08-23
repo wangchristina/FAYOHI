@@ -1342,27 +1342,27 @@ div#mCSB_1_container{
 
 .banner-section{
   position: relative;
-  background-image: url("/assets/images/first_background.png");
+  background-image: url("../images/first_background.png");
   padding: 210px 0px 100px 0px;
  }
 
 
 @media screen and (max-width: 992px) {
   .banner-section {
-    background-image: url("/assets/images/first_background.png");
+    background-image: url("../images/first_background.png");
   }
 }
 
 /* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 600px) {
   .banner-section {
-    background-image:url("/assets/images/ribbon.png");
+    background-image:url("../images/ribbon.png");
   }
 }
 
 @media screen and (max-width: 300px) {
   .banner-section {
-    background-image:url("/assets/images/iphone1.png");
+    background-image:url("../images/iphone1.png");
   }
 }
 
