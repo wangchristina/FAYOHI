@@ -472,7 +472,6 @@ img {
 
 
 
-
 /*** 
 
 ====================================================================
@@ -1344,10 +1343,29 @@ div#mCSB_1_container{
 
 .banner-section{
   position: relative;
-  background: #fff;
+  background-image: url("/assets/images/first_background.png");
+  background-color: white;
   padding: 210px 0px 100px 0px;
+ }
+
+@media screen and (max-width: 992px) {
+  .banner-section {
+    background-image:url("/assets/images/first_background.png");
+  }
 }
 
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  .banner-section {
+    background-image:url("/assets/images/screen\ w\ smaller\ ribbon.png");
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .banner-section {
+    background-image:url("/assets/images/iphone1.png");
+  }
+}
 .banner-section .content-box .btn-box .video-btn{
   position: relative;
   display: inline-block;
@@ -1677,10 +1695,23 @@ div#mCSB_1_container{
 
 .about-section{
   position: relative;
-  background: #fff;
-  padding: 50px 0px 150px 0px;
+  background-image: url("/assets/images/p2.png");
+  background-color: white;
+  padding: 50px 10px 150px 10px;
 }
 
+@media screen and (max-width: 992px) {
+  .about-section {
+    background-image:url("/assets/images/p2.jpg");
+  }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 400px) {
+  .about-section {
+    background-image:url("/assets/images/screen2.3.png");
+  }
+}
 #content_block_01 .content-box .text{
   position: relative;
   margin-bottom: 37px;
@@ -1739,62 +1770,6 @@ div#mCSB_1_container{
 #image_block_01 .image-box{
   margin-top: 32px;
 }
-
-/** New changes made over here for the accordion
-.accordion{
-  width: 100%;
-  max-width: 1000%;
-  margin: 2rem auto;
-}
-.accordion-item{
-  background-color: #fff;
-  color: #111;
-  margin: 1rem 0;
-  border-radius: 0.5rem;
-  box-shadow:0 4px 5px 0 rgba(99, 119, 238, 0.1);
-}
-.accordion-item-header{
-  padding: 0.5rem 3rem 0.5rem 1rem;
-  min-height: 3.5rem;
-  line-height: 1.25rem;
-  font-weight: bold;
-  display: flex;
-  align-items: center;
-  position: relative;
-  cursor: pointer;
-
-}
-
-.accordion-item-header::after {
-  content:"\002B";
-  font-size:2rem;
-  position:absolute;
-  right: 1rem;
-}
-
-.accordion-item-header.active::after{
-  content:"\2212";
-}
-
-.accordion-item-body {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  
-}
-
-.accordion-item-body-content{
-  padding: 1rem;
-  line-height:1.5rem;
-  border-top: 1px solid;
-  border-image: linear-gradient(to right, #f6b26a,  #1f5c7d,#e0c047 ) 1;
-}
-
-/**
-.accordion-item-header.active + .accordion-item-body{
-  max-height: auto;
-}
-**/
 
 
 /** process-section **/
@@ -2609,7 +2584,7 @@ div#mCSB_1_container{
 
 .main-footer .footer-top{
   position: relative;
-  padding: 120px 0px 90px 0px;
+  padding: 120px 10px 90px 10px;
   border-bottom: 1px solid #e6eaf1;
 }
 
@@ -3891,7 +3866,7 @@ div#mCSB_1_container{
 
 .page-title{
   position: relative;
-  padding: 200px 0px 0px 0px;
+  padding: 200px 5px 0px 5px;
 }
 
 .page-title .pattern-layer{
@@ -3910,7 +3885,7 @@ div#mCSB_1_container{
   line-height: 45px;
   font-weight: 600;
   color: #3b3b3b;
-  margin-bottom: 9px;
+  margin-bottom: 6px;
 }
 
 .page-title .content-box .bread-crumb li{
