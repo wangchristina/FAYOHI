@@ -1695,23 +1695,15 @@ div#mCSB_1_container{
 
 .about-section{
   position: relative;
-  background-image: url("/assets/images/p2.png");
+  background-image: url("../images/p2.png");
   padding: 50px 10px 150px 10px;
 }
 
-
-@media screen and (max-width: 992px) {
-  .about-section {
-    background-image:url("/assets/images/p2.jpg");
-    background-color: white;
-  }
-}
-
 /* On screens that are 600px or less, set the background color to olive */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .about-section {
-    background-image:url("/assets/images/screen2.3.png");
-    background-color: white;
+    background-image:url("../images/ribbon1.png");
+
   }
 }
 
