@@ -1704,6 +1704,7 @@ div#mCSB_1_container{
 @media screen and (max-width: 992px) {
   .about-section {
     background-image:url("/assets/images/p2.jpg");
+    background-color: white;
   }
 }
 
@@ -1711,6 +1712,7 @@ div#mCSB_1_container{
 @media screen and (max-width: 400px) {
   .about-section {
     background-image:url("/assets/images/screen2.3.png");
+    background-color: white;
   }
 }
 
