@@ -1347,13 +1347,14 @@ div#mCSB_1_container{
   padding: 210px 0px 100px 0px;
  }
 
+ /**
 @media screen and (max-width: 992px) {
   .banner-section {
-    background-image:url("/assets/images/first_background.png");
+    background-image: url("/assets/images/first_background.png");
   }
 }
 
-/* On screens that are 600px or less, set the background color to olive */
+/* On screens that are 600px or less, set the background color to olive 
 @media screen and (max-width: 600px) {
   .banner-section {
     background-image:url("/assets/images/screen\ w\ smaller\ ribbon.png");
@@ -1365,6 +1366,7 @@ div#mCSB_1_container{
     background-image:url("/assets/images/iphone1.png");
   }
 }
+**/
 .banner-section .content-box .btn-box .video-btn{
   position: relative;
   display: inline-block;
@@ -1698,18 +1700,20 @@ div#mCSB_1_container{
   padding: 50px 10px 150px 10px;
 }
 
+/**
 @media screen and (max-width: 992px) {
   .about-section {
     background-image:url("/assets/images/p2.jpg");
   }
 }
 
-/* On screens that are 600px or less, set the background color to olive */
+/* On screens that are 600px or less, set the background color to olive 
 @media screen and (max-width: 400px) {
   .about-section {
     background-image:url("/assets/images/screen2.3.png");
   }
 }
+**/
 #content_block_01 .content-box .text{
   position: relative;
   margin-bottom: 37px;
