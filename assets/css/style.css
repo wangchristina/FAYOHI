@@ -74,7 +74,6 @@ body {
   color:#848484;
   line-height:32px;
   font-weight:400;
-  background:#1f5c7d;
   font-family: 'Roboto', sans-serif;
   background-size:cover;
   background-repeat:no-repeat;
@@ -1357,7 +1356,7 @@ div#mCSB_1_container{
 /* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 600px) {
   .banner-section {
-    background-image:url("/assets/images/screen\ w\ smaller\ ribbon.png");
+    background-image:url("/assets/images/ribbon.png");
   }
 }
 
