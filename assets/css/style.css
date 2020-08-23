@@ -1349,10 +1349,9 @@ div#mCSB_1_container{
 
 @media screen and (max-width: 992px) {
   .banner-section {
-    background-image: url("../images/first_background.png");
+    background-image: url("../images/ipad11.jpg");
   }
 }
-
 /* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 600px) {
   .banner-section {
@@ -1697,6 +1696,13 @@ div#mCSB_1_container{
   position: relative;
   background-image: url("../images/p2.png");
   padding: 50px 10px 150px 10px;
+}
+
+@media screen and (max-width: 992px) {
+  .about-section {
+    background-image:url("../images/ipad2.png");
+
+  }
 }
 
 /* On screens that are 600px or less, set the background color to olive */
