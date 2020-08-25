@@ -3889,6 +3889,31 @@ div#mCSB_1_container{
   margin-bottom: 6px;
 }
 
+
+.page-title1{
+  position: relative;
+  padding: 0px 0px 0px 0px;
+}
+
+.page-title1 .pattern-layer{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 668px;
+  height: 100px;
+  background-repeat: no-repeat;
+}
+
+.page-title1 .content-box h1{
+  position: relative;
+  display: block;
+  font-size: 36px;
+  line-height: 45px;
+  font-weight: 600;
+  color: #3b3b3b;
+  margin-bottom: 6px;
+}
+
 .page-title .content-box .bread-crumb li{
   position: relative;
   display: inline-block;
